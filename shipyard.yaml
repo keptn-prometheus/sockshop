@@ -14,3 +14,4 @@ stages:
       warning: "manual"
     deployment_strategy: "blue_green_service"
     remediation_strategy: "automated"
+    test_strategy: "real-user"
