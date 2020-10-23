@@ -17,6 +17,8 @@ objectives:
       - criteria:
           - "<=800"
     weight: 1
+  - sli: "error_rate"
+  - sli: "throughput"
 total_score:
   pass: "90%"
   warning: "75%"
